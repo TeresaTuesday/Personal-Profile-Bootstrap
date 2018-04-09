@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <title>Portfolio Site</title>
+</head>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">TLC<i class="fa fa-heart"></i></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="header">
+    <div class="flex-container">
+        <img src="images/misty-big-cottonwood.jpg" alt="Mist in Big Cottonwood Canyon" class="image">
+        <div class="overlay">
+            <div class="text">
+                <h1>Hi.</h1>
+                <h2>I am Teresa Lyn Chavez.</h2>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!--&lt;!&ndash; First Container &ndash;&gt;-->
+<!--<div class="container-fluid bg-1 text-center">-->
+    <!--<h3 class="margin">Who Am I?</h3>-->
+    <!--<img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">-->
+    <!--<h3>I'm an adventurer</h3>-->
+<!--</div>-->
+<body>
+
+
+
+
+<div class="masonry-container">
+    <div class="masonry-item">
+        <a href="https://blackjackjs.netlify.com" target="_blank"><img src="images/BlackJackProject.png" alt="Black Jack logo"/></a>
+        <div class="overlay-port">
+            <span class="port-text">Javescript Black Jack Game</span>
+        </div>
+    </div>
+
+    <div class="masonry-item">
+        <a href="https://tic-tac-app.netlify.com" target="_blank"><img src="images/TicTacApp.png" alt="ti-tac-toe board"/></a>
+        <div class="overlay-port">
+            <span class="port-text">React Tic-Tac-Toe App</span>
+        </div>
+    </div>
+
+    <div class="masonry-item">
+        <a href="https://senatorsreact.netlify.com" target="_blank"><img src="images/USsenators.jpg" alt="American flag eagle"/></a>
+        <div class="overlay-port">
+            <span class="port-text">US Senators Contact List</span>
+        </div>
+    </div>
+
+
+    <div class="masonry-item">
+        <a href="https://uk.pinterest.com/pin/436286282624249460/"><img src="https://s-media-cache-ak0.pinimg.com/736x/61/4f/1b/614f1b3a481f68b4d492f71c5fe3fc5f.jpg" /></a>
+        <div class="overlay-port">
+            <span class="port-text">Img 4</span>
+        </div>
+    </div>
+
+    <div class="masonry-item">
+        <a href="https://uk.pinterest.com/pin/481040803922110845/"><img src="https://s-media-cache-ak0.pinimg.com/736x/1d/6f/2d/1d6f2d4fff0f0d4e83456c28b0645bbd.jpg" /></a>
+        <div class="overlay-port">
+            <span class="port-text">Img 5</span>
+        </div>
+    </div>
+
+    <div class="masonry-item">
+        <a href="http://grrlathr.com/woodworkingstand/picture-frame-design-on-walls-plans-diy-free-download-plans-to-build-bunk-beds"><img src="http://i00.i.aliimg.com/wsphoto/v0/1913341970_3/New-Design-Photo-Frame-Wall-Decals-Memories-Photo-Frame-Vinyl-Wall-Stickers-Home-Decor-Witness-Every.jpg" /></a>
+        <div class="overlay-port">
+            <span class="port-text">Img 6</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid bg-2 text-center">
+
+<section id="portfolio">
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-center m-auto">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="images/BlackJackProject.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Black Jack Game</h4>
+                                        <p>A simple Black Jack game built with Javascript.</p>
+                                        <a href="https://blackjackjs.netlify.com" class="btn btn-primary" target="_blank">Play <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="images/TicTacApp.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Tic-Tac-Toe</h4>
+                                        <p>A Tic-Tac-Toe game built in React.</p>
+                                        <a href="https://tic-tac-app.netlify.com" class="btn btn-primary" target="_blank">Play <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="images/USsenators.jpg" class="img-responsive img-fluid" alt="American Flag Eagle">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>U.S. Senators</h4>
+                                        <p>An ugly contact list of the U.S. Senators built in React.</p>
+                                        <a href="https://senatorsreact.netlify.com/" class="btn btn-primary" target="_blank">More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="/examples/images/cities/kuala-lumpur.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Kuala Lumpur</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+                                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="/examples/images/cities/agra.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Agra</h4>
+                                        <p>Vivamus fermentum in arcu in aliquam. Quisque aliqua porta odio in fringilla vivamus.</p>
+                                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="/examples/images/cities/dubai.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Dubai</h4>
+                                        <p>Convallis eget pretium eu, bibendum non leo. Proin susc ipit purus adipiscing dolor.</p>
+                                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="/examples/images/cities/rio-de-janeiro.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Rio De Janeiro</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+                                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="/examples/images/cities/giza.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Giza</h4>
+                                        <p>Vivamus fermentum in arcu in aliquam. Quisque aliqua porta odio in fringilla vivamus.</p>
+                                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="/examples/images/cities/sydney.png" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Sydney</h4>
+                                        <p>Convallis eget pretium eu, bibendum non leo. Proin susc ipit purus adipiscing dolor.</p>
+                                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+</div>
+
+<!--&lt;!&ndash; Second Container &ndash;&gt;-->
+<!--<div class="container-fluid bg-2 text-center" id="what">-->
+    <!--<h3 class="margin">What Am I?</h3>-->
+    <!--<p> I am a Full Stack Web Developer. </p>-->
+    <!--<a href="https://www.linkedin.com/in/teresalynchavez" class="btn btn-default btn-lg">-->
+        <!--<span class="glyphicon glyphicon-list-alt"></span> LinkedIn-->
+    <!--</a>-->
+<!--</div>-->
+
+
+<!-- Third Container (Grid) -->
+<div class="bg-3 text-center" id="about">
+    <!--<h3 class="margin">Where To Find Me?</h3><br>-->
+
+    <div class="row">
+        <!--<div class="col-sm-4">-->
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+            <!--<img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">-->
+        <!--</div>-->
+        <div class="col-sm-6">
+            <h1>Oh, Hello!  I am Teresa Lyn Chavez.</h1>
+            <p> I am a Full Stack Web Developer. </p>
+            <!--<a href="https://www.linkedin.com/in/teresalynchavez" class="btn btn-default btn-lg">-->
+                <!--<span class="glyphicon glyphicon-list-alt"></span> LinkedIn-->
+            <!--</a>-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!--<img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">-->
+        </div>
+        <div class="col-sm-6">
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+            <img src="images/TeresaEaglePoint.jpg" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+    <section class="container-fluid bg-4" id="contact">
+        <div class="row">
+        <div class="col-sm-6 text-center">
+            <h1>Get in contact:</h1><br>
+            <!--<a href="https://www.linkedin.com/in/teresalynchavez" class="btn btn-default btn-lg">-->
+                <!--<span class="glyphicon glyphicon-list-alt"></span> LinkedIn-->
+            <!--</a>-->
+            <h2>Email</h2>
+            <a href="mailto:teresa.lb.chavez@gmail.com"><h3>teresa.lb.chavez@gmail.com</h3></a>
+            <br>
+        </div>
+            <div class="col-sm-6 text-center">
+                <h1>Networks:</h1>
+                <br>
+                <p>Follow me on <a href="https://www.linkedin.com/in/teresalynchavez">LinkedIn.</a></p>
+                <br>
+                <a href="https://www.linkedin.com/in/teresalynchavez" class="fa fa-linkedin"></a>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+                <br>
+                <a href="https://github.com/TeresaTuesday" class="fa fa-github"></a>
+                <i class="fa fa-github" aria-hidden="true"></i>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+<footer class="container-fluid bg-4 text-center copy">
+    Copyright © 2018 Teresa Lyn Chavez - <i class="fa fa-heart"></i>TLC
+    <br>
+    <span>HTML5 | CSS3 | JavaScript | Bootstrap | Front-End Development</span>
+</footer>
+
+</body>
+</html>
