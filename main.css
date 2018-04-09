@@ -288,4 +288,11 @@ body {
     font-size: 12px;
 }
 
+.about-text {
+    justify-content: center;
+    padding-top: 100px;
+}
 
+.about-text h1 {
+    font-family: "Arial Black", Serif;
+}
